@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/beta.petersell.dev/static/css/main.c75045b2.chunk.css",
+    "main.js": "/beta.petersell.dev/static/js/main.680389c9.chunk.js",
+    "main.js.map": "/beta.petersell.dev/static/js/main.680389c9.chunk.js.map",
+    "runtime-main.js": "/beta.petersell.dev/static/js/runtime-main.1123e7d1.js",
+    "runtime-main.js.map": "/beta.petersell.dev/static/js/runtime-main.1123e7d1.js.map",
+    "static/js/2.a6fdd45b.chunk.js": "/beta.petersell.dev/static/js/2.a6fdd45b.chunk.js",
+    "static/js/2.a6fdd45b.chunk.js.map": "/beta.petersell.dev/static/js/2.a6fdd45b.chunk.js.map",
+    "static/js/3.0e7006a6.chunk.js": "/beta.petersell.dev/static/js/3.0e7006a6.chunk.js",
+    "static/js/3.0e7006a6.chunk.js.map": "/beta.petersell.dev/static/js/3.0e7006a6.chunk.js.map",
+    "index.html": "/beta.petersell.dev/index.html",
+    "static/css/main.c75045b2.chunk.css.map": "/beta.petersell.dev/static/css/main.c75045b2.chunk.css.map",
+    "static/js/2.a6fdd45b.chunk.js.LICENSE.txt": "/beta.petersell.dev/static/js/2.a6fdd45b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1123e7d1.js",
+    "static/js/2.a6fdd45b.chunk.js",
+    "static/css/main.c75045b2.chunk.css",
+    "static/js/main.680389c9.chunk.js"
+  ]
+}
