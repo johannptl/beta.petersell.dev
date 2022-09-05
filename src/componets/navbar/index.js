@@ -11,7 +11,7 @@ import {
 const Navbar = () => {
   return (
     <>
-      <Nav>
+      <Nav style={{ height: window.innerHeight * 0.08 }}>
         <NavLink to="/home">
           <h1>petersell.dev</h1>
         </NavLink>
@@ -30,12 +30,7 @@ const Navbar = () => {
           </NavLink>
         </NavMenu>
         <NavBtn>
-          <NavBtnLink
-            href="https://github.com/JohannLULW/petersell.dev"
-            target="_blank"
-          >
-            Source Code
-          </NavBtnLink>
+          <NavBtnLink to="/login">Login</NavBtnLink>
         </NavBtn>
       </Nav>
     </>

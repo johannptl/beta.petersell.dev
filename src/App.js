@@ -1,3 +1,4 @@
+import React, { useEffect } from "react";
 import "./App.css";
 import Navbar from "./componets/navbar";
 import {
@@ -11,8 +12,12 @@ import About from "./pages/about";
 import Projects from "./pages/projects";
 import Socials from "./pages/socials";
 import Error from "./pages/error";
+import Login from "./pages/login";
 
 function App() {
+  useEffect(() => {
+    document.title = "Projects | petersell.dev";
+  }, []);
   return (
     <Router>
       <Navbar />
@@ -22,6 +27,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/socials" element={<Socials />} />
+        <Route path="/login" element={<Login />} />
         <Route path="*" element={<Error />} />
       </Routes>
     </Router>
